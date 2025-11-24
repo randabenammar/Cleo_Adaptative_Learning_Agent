@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 374)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary characteristic of cloud computing that allows users to access and use computing resources over the internet?",
+    "options": [
+      {"key": "A", "text": "Virtualization"},
+      {"key": "B", "text": "On-demand self-service"},
+      {"key": "C", "text": "Load balancing"},
+      {"key": "D", "text": "Network security"}
+    ],
+    "correct_answer": "B",
+    "explanation": "On-demand self-service is the primary characteristic of cloud computing that allows users to access and use computing resources over the internet without requiring human intervention",
+    "points": 10
+  },
+  {
+    "question_text": "What type of cloud computing deployment model is owned and managed by a single organization?",
+    "options": [
+      {"key": "A", "text": "Public cloud"},
+      {"key": "B", "text": "Hybrid cloud"},
+      {"key": "C", "text": "Private cloud"},
+      {"key": "D", "text": "Community cloud"}
+    ],
+    "correct_answer": "C",
+    "explanation": "A private cloud is a type of cloud computing deployment model that is owned and managed by a single organization, providing a secure and customized environment",
+    "points": 10
+  },
+  {
+    "question_text": "What is the term for the ability of a cloud computing system to automatically add or remove resources as needed to match changing workload demands?",
+    "options": [
+      {"key": "A", "text": "Scalability"},
+      {"key": "B", "text": "Elasticity"},
+      {"key": "C", "text": "Flexibility"},
+      {"key": "D", "text": "Reliability"}
+    ],
+    "correct_answer": "B",
+    "explanation": "Elasticity is the term for the ability of a cloud computing system to automatically add or remove resources as needed to match changing workload demands, allowing for efficient use of resources",
+    "points": 10
+  }
+]

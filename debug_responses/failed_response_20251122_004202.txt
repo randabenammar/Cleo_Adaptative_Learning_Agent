@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 355)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the purpose of the import statement in Python?",
+    "options": [
+      {"key": "A", "text": "To create a new variable"},
+      {"key": "B", "text": "To use functions or modules from other files"},
+      {"key": "C", "text": "To define a new function"},
+      {"key": "D", "text": "To print output to the screen"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The import statement is used to bring in functions or modules from other files, allowing you to use their functionality in your current program",
+    "points": 10
+  },
+  {
+    "question_text": "What is the difference between the = and == operators in Python?",
+    "options": [
+      {"key": "A", "text": "The = operator is used for comparison, while the == operator is used for assignment"},
+      {"key": "B", "text": "The = operator is used for assignment, while the == operator is used for comparison"},
+      {"key": "C", "text": "The = operator is used for arithmetic operations, while the == operator is used for conditional statements"},
+      {"key": "D", "text": "The = operator is used for conditional statements, while the == operator is used for arithmetic operations"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The = operator is used to assign a value to a variable, while the == operator is used to compare two values",
+    "points": 10
+  },
+  {
+    "question_text": "What is the purpose of the def keyword in Python?",
+    "options": [
+      {"key": "A", "text": "To declare a variable"},
+      {"key": "B", "text": "To import a module"},
+      {"key": "C", "text": "To define a new function"},
+      {"key": "D", "text": "To start a conditional statement"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The def keyword is used to define a new function, which can be called later in the program to execute a block of code",
+    "points": 10
+  }
+]

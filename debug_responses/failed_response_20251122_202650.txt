@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 354)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary goal of a firewall in a network?",
+    "options": [
+      {"key": "A", "text": "To increase network speed"},
+      {"key": "B", "text": "To block unauthorized access to the network"},
+      {"key": "C", "text": "To provide network encryption"},
+      {"key": "D", "text": "To reduce network latency"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The primary goal of a firewall is to block unauthorized access to the network, thereby protecting it from potential threats",
+    "points": 10
+  },
+  {
+    "question_text": "What type of malware is designed to demand payment in exchange for restoring access to data?",
+    "options": [
+      {"key": "A", "text": "Virus"},
+      {"key": "B", "text": "Worm"},
+      {"key": "C", "text": "Trojan"},
+      {"key": "D", "text": "Ransomware"}
+    ],
+    "correct_answer": "D",
+    "explanation": "Ransomware is a type of malware that is designed to demand payment in exchange for restoring access to data",
+    "points": 10
+  },
+  {
+    "question_text": "What is the term for a security measure that requires a user to provide two different authentication factors to access a system?",
+    "options": [
+      {"key": "A", "text": "Single-factor authentication"},
+      {"key": "B", "text": "Multi-factor authentication"},
+      {"key": "C", "text": "Two-step verification"},
+      {"key": "D", "text": "Biometric authentication"}
+    ],
+    "correct_answer": "B",
+    "explanation": "Multi-factor authentication is a security measure that requires a user to provide two different authentication factors to access a system",
+    "points": 10
+  }
+]

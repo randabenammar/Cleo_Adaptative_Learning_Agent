@@ -1,0 +1,87 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 10 column 2 (char 308)
+================================================================================
+RESPONSE:
+[
+{
+"question_text": "Match the Cloud Architecture components with their functions:",
+"left_items": [
+{"id": "L1", "text": "Load Balancer"},
+{"id": "L2", "text": "Auto Scaling"},
+{"id": "L3", "text": "Serverless Computing"},
+{"id": "L4", "text": "Virtual Machine"},
+{"id": "L5", "text": "Containerization"}
+],
+"right_items": [
+{"id": "R1", "text": "Dynamically adjusts the number of computing resources"},
+{"id": "R2", "text": "A service that provides a layer of abstraction between applications and infrastructure"},
+{"id": "R3", "text": "Distributes incoming network traffic across multiple servers"},
+{"id": "R4", "text": "A self-contained package of software and its dependencies"},
+{"id": "R5", "text": "A virtual computing environment configured to run applications"}
+],
+"correct_matches": [
+{"left": "L1", "right": "R3"},
+{"left": "L2", "right": "R1"},
+{"left": "L3", "right": "R2"},
+{"left": "L4", "right": "R5"},
+{"left": "L5", "right": "R4"}
+],
+"points": 20
+},
+{
+"question_text": "Match the Big Data storage solutions with their characteristics:",
+"left_items": [
+{"id": "L1", "text": "Object Storage"},
+{"id": "L2", "text": "Block Storage"},
+{"id": "L3", "text": "File Storage"},
+{"id": "L4", "text": "HDFS"},
+{"id": "L5", "text": "NoSQL Database"}
+],
+"right_items": [
+{"id": "R1", "text": "A distributed file system for storing large amounts of data"},
+{"id": "R2", "text": "Optimized for sequential access and high throughput"},
+{"id": "R3", "text": "Stores data in a hierarchical structure, similar to a file system"},
+{"id": "R4", "text": "A type of storage that stores data in fixed-size blocks"},
+{"id": "R5", "text": "Designed for storing and retrieving large amounts of unstructured data"}
+],
+"correct_matches": [
+{"left": "L1", "right": "R5"},
+{"left": "L2", "right": "R4"},
+{"left": "L3", "text": "File Storage"},
+{"left": "L4", "right": "R1"},
+{"left": "L5", "right": "R3"}
+],
+"correct_matches": [
+{"left": "L1", "right": "R5"},
+{"left": "L2", "right": "R4"},
+{"left": "L3", "right": "R3"},
+{"left": "L4", "right": "R1"},
+{"left": "L5", "right": "R2"}
+],
+"points": 20
+},
+{
+"question_text": "Match the Cloud Computing service models with their descriptions:",
+"left_items": [
+{"id": "L1", "text": "IaaS"},
+{"id": "L2", "text": "PaaS"},
+{"id": "L3", "text": "SaaS"},
+{"id": "L4", "text": "Serverless Computing"},
+{"id": "L5", "text": "Edge Computing"}
+],
+"right_items": [
+{"id": "R1", "text": "Provides software applications over the internet"},
+{"id": "R2", "text": "Provides virtualized computing resources over the internet"},
+{"id": "R3", "text": "Provides a platform for developing, running, and managing applications"},
+{"id": "R4", "text": "A model that allows for computing resources to be provided as needed"},
+{"id": "R5", "text": "A distributed computing paradigm that brings computation closer to the source of the data"}
+],
+"correct_matches": [
+{"left": "L1", "right": "R2"},
+{"left": "L2", "right": "R3"},
+{"left": "L3", "right": "R1"},
+{"left": "L4", "right": "R4"},
+{"left": "L5", "right": "R5"}
+],
+"points": 20
+}
+]

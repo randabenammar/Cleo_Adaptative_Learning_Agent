@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 340)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary characteristic that distinguishes big data from traditional data?",
+    "options": [
+      {"key": "A", "text": "Data source"},
+      {"key": "B", "text": "Volume, velocity, and variety"},
+      {"key": "C", "text": "Data storage"},
+      {"key": "D", "text": "Data analysis technique"}
+    ],
+    "correct_answer": "B",
+    "explanation": "Big data is characterized by its large volume, high velocity, and great variety, which distinguishes it from traditional data",
+    "points": 10
+  },
+  {
+    "question_text": "What is the term for the process of examining large data sets to discover hidden patterns and relationships?",
+    "options": [
+      {"key": "A", "text": "Data mining"},
+      {"key": "B", "text": "Data storage"},
+      {"key": "C", "text": "Data analysis"},
+      {"key": "D", "text": "Data visualization"}
+    ],
+    "correct_answer": "A",
+    "explanation": "Data mining is the process of automatically discovering patterns and relationships in large data sets",
+    "points": 10
+  },
+  {
+    "question_text": "What is the benefit of using distributed computing systems for big data processing?",
+    "options": [
+      {"key": "A", "text": "Reduced data security"},
+      {"key": "B", "text": "Increased data storage costs"},
+      {"key": "C", "text": "Improved processing speed and scalability"},
+      {"key": "D", "text": "Decreased data accuracy"}
+    ],
+    "correct_answer": "C",
+    "explanation": "Distributed computing systems allow for the processing of large data sets to be split across multiple nodes, improving processing speed and scalability",
+    "points": 10
+  }
+]

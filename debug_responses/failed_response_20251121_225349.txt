@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 424)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary function of the activation function in a neural network?",
+    "options": [
+      {"key": "A", "text": "To reduce the dimensionality of the input data"},
+      {"key": "B", "text": "To introduce non-linearity into the model"},
+      {"key": "C", "text": "To increase the number of hidden layers"},
+      {"key": "D", "text": "To decrease the learning rate of the model"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The activation function introduces non-linearity into the model, allowing it to learn and represent more complex relationships between inputs and outputs",
+    "points": 10
+  },
+  {
+    "question_text": "What is the purpose of the hidden layers in a neural network?",
+    "options": [
+      {"key": "A", "text": "To receive input from the user"},
+      {"key": "B", "text": "To provide output to the user"},
+      {"key": "C", "text": "To allow the model to learn and represent complex patterns and relationships"},
+      {"key": "D", "text": "To reduce the computational power required by the model"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The hidden layers allow the model to learn and represent complex patterns and relationships between inputs and outputs, enabling it to make accurate predictions and classifications",
+    "points": 10
+  },
+  {
+    "question_text": "What is the role of the bias term in a neural network?",
+    "options": [
+      {"key": "A", "text": "To reduce the effect of outliers in the data"},
+      {"key": "B", "text": "To increase the learning rate of the model"},
+      {"key": "C", "text": "To shift the activation curve to the left or right"},
+      {"key": "D", "text": "To decrease the number of hidden layers"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The bias term shifts the activation curve to the left or right, allowing the model to learn and represent more complex relationships between inputs and outputs",
+    "points": 10
+  }
+]

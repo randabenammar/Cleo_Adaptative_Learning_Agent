@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 439)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary purpose of the Map phase in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "To aggregate data from multiple sources"},
+      {"key": "B", "text": "To transform and partition the input data into smaller chunks"},
+      {"key": "C", "text": "To sort and shuffle the data for the Reduce phase"},
+      {"key": "D", "text": "To store the final output of the MapReduce job"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The Map phase is responsible for transforming and partitioning the input data into smaller chunks, which are then processed by the Reduce phase",
+    "points": 10
+  },
+  {
+    "question_text": "What is the role of the Reduce phase in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "To split the input data into smaller chunks"},
+      {"key": "B", "text": "To transform and partition the input data"},
+      {"key": "C", "text": "To aggregate the output from the Map phase and produce the final output"},
+      {"key": "D", "text": "To store the input data for the Map phase"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The Reduce phase is responsible for aggregating the output from the Map phase and producing the final output of the MapReduce job",
+    "points": 10
+  },
+  {
+    "question_text": "What is the purpose of the shuffle phase in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "To transform the input data into a format suitable for processing"},
+      {"key": "B", "text": "To aggregate the output from the Reduce phase"},
+      {"key": "C", "text": "To partition the input data into smaller chunks"},
+      {"key": "D", "text": "To transfer data from the Map phase to the Reduce phase"}
+    ],
+    "correct_answer": "D",
+    "explanation": "The shuffle phase is responsible for transferring data from the Map phase to the Reduce phase, allowing the Reduce phase to process the output from the Map phase",
+    "points": 10
+  }
+]

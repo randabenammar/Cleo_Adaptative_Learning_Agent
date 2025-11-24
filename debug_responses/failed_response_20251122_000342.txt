@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 445)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary purpose of data augmentation in machine learning?",
+    "options": [
+      {"key": "A", "text": "To reduce the size of the training dataset"},
+      {"key": "B", "text": "To increase the size and diversity of the training dataset"},
+      {"key": "C", "text": "To decrease the model's computational complexity"},
+      {"key": "D", "text": "To evaluate the model's performance on test data"}
+    ],
+    "correct_answer": "B",
+    "explanation": "Data augmentation is used to increase the size and diversity of the training dataset, which helps to improve the model's ability to generalize and reduces overfitting",
+    "points": 10
+  },
+  {
+    "question_text": "Which of the following is a common technique used for data augmentation in image classification tasks?",
+    "options": [
+      {"key": "A", "text": "Feature engineering"},
+      {"key": "B", "text": "Random rotation and flipping"},
+      {"key": "C", "text": "Model selection"},
+      {"key": "D", "text": "Hyperparameter tuning"}
+    ],
+    "correct_answer": "B",
+    "explanation": "Random rotation and flipping are common techniques used for data augmentation in image classification tasks, as they help to increase the diversity of the training dataset",
+    "points": 10
+  },
+  {
+    "question_text": "What is the benefit of using data augmentation in machine learning models?",
+    "options": [
+      {"key": "A", "text": "It reduces the risk of underfitting"},
+      {"key": "B", "text": "It increases the risk of overfitting"},
+      {"key": "C", "text": "It has no impact on the model's performance"},
+      {"key": "D", "text": "It reduces the risk of overfitting and improves generalization"}
+    ],
+    "correct_answer": "D",
+    "explanation": "Data augmentation helps to reduce the risk of overfitting and improve the model's ability to generalize to new, unseen data",
+    "points": 10
+  }
+]

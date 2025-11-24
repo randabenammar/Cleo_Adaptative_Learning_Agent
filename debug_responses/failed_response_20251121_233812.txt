@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 411)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary goal of data preprocessing in data science?",
+    "options": [
+      {"key": "A", "text": "To reduce the size of the dataset"},
+      {"key": "B", "text": "To improve the quality and consistency of the data"},
+      {"key": "C", "text": "To select the best machine learning algorithm"},
+      {"key": "D", "text": "To visualize the results of the analysis"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The primary goal of data preprocessing is to improve the quality and consistency of the data, which includes handling missing values, removing duplicates, and transforming variables",
+    "points": 10
+  },
+  {
+    "question_text": "What does the term 'supervised learning' refer to in data science?",
+    "options": [
+      {"key": "A", "text": "A type of machine learning where the model is trained on unlabeled data"},
+      {"key": "B", "text": "A type of machine learning where the model is trained on labeled data to make predictions"},
+      {"key": "C", "text": "A type of data visualization technique"},
+      {"key": "D", "text": "A type of data preprocessing step"}
+    ],
+    "correct_answer": "B",
+    "explanation": "Supervised learning refers to a type of machine learning where the model is trained on labeled data to make predictions, such as classification or regression tasks",
+    "points": 10
+  },
+  {
+    "question_text": "What is the purpose of feature scaling in data science?",
+    "options": [
+      {"key": "A", "text": "To reduce the dimensionality of the dataset"},
+      {"key": "B", "text": "To improve the interpretability of the results"},
+      {"key": "C", "text": "To prevent features with large ranges from dominating the model"},
+      {"key": "D", "text": "To increase the computational complexity of the model"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The purpose of feature scaling is to prevent features with large ranges from dominating the model, which can improve the performance and stability of the model",
+    "points": 10
+  }
+]

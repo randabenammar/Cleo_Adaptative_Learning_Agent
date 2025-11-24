@@ -1,0 +1,65 @@
+ERROR: All methods failed: Expecting property name enclosed in double quotes: line 20 column 7 (char 944)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary purpose of using a load balancer in a cloud architecture?",
+    "options": [
+      {"key": "A", "text": "To increase storage capacity"},
+      {"key": "B", "text": "To distribute incoming traffic across multiple servers"},
+      {"key": "C", "text": "To improve data security"},
+      {"key": "D", "text": "To reduce network latency"}
+    ],
+    "correct_answer": "B",
+    "explanation": "A load balancer is used to distribute incoming traffic across multiple servers to improve responsiveness, reliability, and scalability of applications",
+    "points": 10
+  },
+  {
+    "question_text": "What is the role of a cloud gateway in a big data cloud architecture?",
+    "options": [
+      {"key": "A", "text": "To manage cloud storage"},
+      {"key": "B", "text": "To provide network connectivity between cloud and on-premises environments"},
+      {"key": "C", "text": "To analyze big data",
+      {"key": "D", "text": "To configure cloud security"}
+    ],
+    "correct_answer": "B",
+    "explanation": "A cloud gateway acts as an entry point for data and applications, providing network connectivity between cloud and on-premises environments",
+    "points": 10
+  },
+  {
+    "question_text": "What is the main benefit of using a scalable cloud storage system in big data analytics?",
+    "options": [
+      {"key": "A", "text": "Improved data security"},
+      {"key": "B", "text": "Enhanced data processing speed"},
+      {"key": "C", "text": "Reduced storage costs"},
+      {"key": "D", "text": "Increased storage capacity to handle large amounts of data"}
+    ],
+    "correct_answer": "D",
+    "explanation": "Scalable cloud storage systems provide the ability to handle large amounts of data, making them ideal for big data analytics",
+    "points": 10
+  },
+  {
+    "question_text": "What is the purpose of using auto-scaling in a cloud architecture?",
+    "options": [
+      {"key": "A", "text": "To reduce energy consumption"},
+      {"key": "B", "text": "To improve application performance by dynamically adjusting resources"},
+      {"key": "C", "text": "To decrease cloud costs"},
+      {"key": "D", "text": "To enhance data security"}
+    ],
+    "correct_answer": "B",
+    "explanation": "Auto-scaling allows cloud resources to be dynamically adjusted to match changing workload demands, improving application performance and responsiveness",
+    "points": 10
+  },
+  {
+    "question_text": "What is the primary function of a cloud-based message queue in a big data architecture?",
+    "options": [
+      {"key": "A", "text": "To store and process large datasets"},
+      {"key": "B", "text": "To manage cloud security and access control"},
+      {"key": "C", "text": "To facilitate communication between distributed applications and services"},
+      {"key": "D", "text": "To provide data analytics and visualization"}
+    ],
+    "correct_answer": "C",
+    "explanation": "A cloud-based message queue enables asynchronous communication between distributed applications and services, allowing for loose coupling and scalability",
+    "points": 10
+  }
+]

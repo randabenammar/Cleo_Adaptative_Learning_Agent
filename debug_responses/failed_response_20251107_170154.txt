@@ -1,0 +1,80 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 10 column 2 (char 282)
+================================================================================
+RESPONSE:
+[
+{
+"question_text": "Match Neural Network concepts with definitions:",
+"left_items": [
+{"id": "L1", "text": "Backpropagation"},
+{"id": "L2", "text": "Activation Function"},
+{"id": "L3", "text": "Neuron"},
+{"id": "L4", "text": "Epoch"},
+{"id": "L5", "text": "Batch Normalization"}
+],
+"right_items": [
+{"id": "R1", "text": "A method of normalizing the inputs to each layer"},
+{"id": "R2", "text": "The process of adjusting model parameters to minimize error"},
+{"id": "R3", "text": "A single unit of computation in a Neural Network"},
+{"id": "R4", "text": "A mathematical function that introduces non-linearity to the model"},
+{"id": "R5", "text": "A single pass through the entire training dataset"}
+],
+"correct_matches": [
+{"left": "L1", "right": "R2"},
+{"left": "L2", "text": "Activation Function", "right": "R4"},
+{"left": "L3", "right": "R3"},
+{"left": "L4", "right": "R5"},
+{"left": "L5", "right": "R1"}
+],
+"points": 20
+},
+{
+"question_text": "Match Neural Network terms with descriptions:",
+"left_items": [
+{"id": "L1", "text": "Convolutional Neural Network"},
+{"id": "L2", "text": "Recurrent Neural Network"},
+{"id": "L3", "text": "Deep Learning"},
+{"id": "L4", "text": "Overfitting"},
+{"id": "L5", "text": "Regularization"}
+],
+"right_items": [
+{"id": "R1", "text": "A technique to prevent model overfitting"},
+{"id": "R2", "text": "A type of Neural Network suitable for sequential data"},
+{"id": "R3", "text": "A subfield of Machine Learning that focuses on Neural Networks"},
+{"id": "R4", "text": "A type of Neural Network commonly used for image classification"},
+{"id": "R5", "text": "A situation where a model performs well on training data but poorly on new data"}
+],
+"correct_matches": [
+{"left": "L1", "right": "R4"},
+{"left": "L2", "right": "R2"},
+{"left": "L3", "right": "R3"},
+{"left": "L4", "right": "R5"},
+{"left": "L5", "right": "R1"}
+],
+"points": 20
+},
+{
+"question_text": "Match Neural Network concepts with explanations:",
+"left_items": [
+{"id": "L1", "text": "Supervised Learning"},
+{"id": "L2", "text": "Unsupervised Learning"},
+{"id": "L3", "text": "Gradient Descent"},
+{"id": "L4", "text": "Dropout"},
+{"id": "L5", "text": "Pooling"}
+],
+"right_items": [
+{"id": "R1", "text": "A technique used to reduce overfitting by randomly dropping neurons"},
+{"id": "R2", "text": "A type of learning where the model is trained on labeled data"},
+{"id": "R3", "text": "A technique used to downsample the input data"},
+{"id": "R4", "text": "An optimization algorithm used to minimize the loss function"},
+{"id": "R5", "text": "A type of learning where the model is trained on unlabeled data"}
+],
+"correct_matches": [
+{"left": "L1", "right": "R2"},
+{"left": "L2", "right": "R5"},
+{"left": "L3", "right": "R4"},
+{"left": "L4", "right": "R1"},
+{"left": "L5", "right": "R3"}
+],
+"points": 20
+}
+]

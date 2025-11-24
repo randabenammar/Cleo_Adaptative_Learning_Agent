@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 388)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary function of HTML in web development?",
+    "options": [
+      {"key": "A", "text": "To add visual styles to a web page"},
+      {"key": "B", "text": "To define the structure and content of a web page"},
+      {"key": "C", "text": "To create interactive web page elements"},
+      {"key": "D", "text": "To manage database connections"}
+    ],
+    "correct_answer": "B",
+    "explanation": "HTML is used to define the structure and content of a web page, including headings, paragraphs, images, and links",
+    "points": 10
+  },
+  {
+    "question_text": "What is the purpose of CSS in web development?",
+    "options": [
+      {"key": "A", "text": "To create dynamic web page content"},
+      {"key": "B", "text": "To define the layout and visual styling of a web page"},
+      {"key": "C", "text": "To manage user input and interactions"},
+      {"key": "D", "text": "To configure web server settings"}
+    ],
+    "correct_answer": "B",
+    "explanation": "CSS is used to define the layout and visual styling of a web page, including colors, fonts, and spacing",
+    "points": 10
+  },
+  {
+    "question_text": "What is the role of JavaScript in web development?",
+    "options": [
+      {"key": "A", "text": "To define the structure and content of a web page"},
+      {"key": "B", "text": "To add interactive elements and dynamic effects to a web page"},
+      {"key": "C", "text": "To manage database connections and queries"},
+      {"key": "D", "text": "To configure web server settings and security"}
+    ],
+    "correct_answer": "B",
+    "explanation": "JavaScript is used to add interactive elements and dynamic effects to a web page, such as responding to user input and updating content",
+    "points": 10
+  }
+]

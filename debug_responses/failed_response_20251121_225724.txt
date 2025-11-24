@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 410)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary purpose of using a load balancer in a cloud architecture for big data processing?",
+    "options": [
+      {"key": "A", "text": "To increase storage capacity"},
+      {"key": "B", "text": "To distribute incoming traffic across multiple nodes"},
+      {"key": "C", "text": "To improve data security"},
+      {"key": "D", "text": "To reduce network latency"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The primary purpose of using a load balancer is to distribute incoming traffic across multiple nodes to ensure efficient processing and prevent overload on a single node",
+    "points": 10
+  },
+  {
+    "question_text": "What is the role of a cloud gateway in a big data cloud architecture?",
+    "options": [
+      {"key": "A", "text": "To manage data storage"},
+      {"key": "B", "text": "To provide network security"},
+      {"key": "C", "text": "To act as an entry point for data ingestion and processing"},
+      {"key": "D", "text": "To optimize data query performance"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The cloud gateway acts as an entry point for data ingestion and processing, providing a single interface for data to enter the cloud architecture",
+    "points": 10
+  },
+  {
+    "question_text": "What is the purpose of using auto-scaling in a cloud architecture for big data processing?",
+    "options": [
+      {"key": "A", "text": "To reduce data storage costs"},
+      {"key": "B", "text": "To improve data security and compliance"},
+      {"key": "C", "text": "To increase network bandwidth"},
+      {"key": "D", "text": "To dynamically adjust computing resources based on workload demand"}
+    ],
+    "correct_answer": "D",
+    "explanation": "The purpose of using auto-scaling is to dynamically adjust computing resources based on workload demand, ensuring that the architecture can handle changing workloads efficiently",
+    "points": 10
+  }
+]

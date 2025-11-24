@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 367)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the purpose of the Python interpreter?",
+    "options": [
+      {"key": "A", "text": "To compile Python code into machine code"},
+      {"key": "B", "text": "To execute Python code line by line"},
+      {"key": "C", "text": "To create Python libraries and frameworks"},
+      {"key": "D", "text": "To debug Python code only"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The Python interpreter executes Python code line by line, allowing for dynamic execution and immediate feedback",
+    "points": 10
+  },
+  {
+    "question_text": "What is the difference between static typing and dynamic typing in programming languages?",
+    "options": [
+      {"key": "A", "text": "Static typing is used for functional programming, while dynamic typing is used for object-oriented programming"},
+      {"key": "B", "text": "Static typing checks variable types at compile time, while dynamic typing checks variable types at runtime"},
+      {"key": "C", "text": "Static typing is used for scripting languages, while dynamic typing is used for compiled languages"},
+      {"key": "D", "text": "Static typing is used for beginner programmers, while dynamic typing is used for advanced programmers"}
+    ],
+    "correct_answer": "B",
+    "explanation": "Static typing checks variable types at compile time, while dynamic typing checks variable types at runtime, which is a key difference between the two approaches",
+    "points": 10
+  },
+  {
+    "question_text": "What is the role of indentation in Python programming?",
+    "options": [
+      {"key": "A", "text": "To separate functions and classes"},
+      {"key": "B", "text": "To define block-level structure"},
+      {"key": "C", "text": "To comment out code"},
+      {"key": "D", "text": "To import libraries and modules"}
+    ],
+    "correct_answer": "B",
+    "explanation": "In Python, indentation is used to define block-level structure, such as inside loops, conditional statements, and functions",
+    "points": 10
+  }
+]

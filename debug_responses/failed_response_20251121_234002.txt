@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 396)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary purpose of a firewall in a computer network?",
+    "options": [
+      {"key": "A", "text": "To encrypt data transmissions"},
+      {"key": "B", "text": "To control and filter incoming and outgoing network traffic"},
+      {"key": "C", "text": "To conduct regular security audits"},
+      {"key": "D", "text": "To provide user authentication"}
+    ],
+    "correct_answer": "B",
+    "explanation": "A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules",
+    "points": 10
+  },
+  {
+    "question_text": "What type of malware is designed to demand payment in exchange for restoring access to data?",
+    "options": [
+      {"key": "A", "text": "Virus"},
+      {"key": "B", "text": "Worm"},
+      {"key": "C", "text": "Trojan"},
+      {"key": "D", "text": "Ransomware"}
+    ],
+    "correct_answer": "D",
+    "explanation": "Ransomware is a type of malware that encrypts a victim's files or locks their device and demands a ransom in exchange for the decryption key or unlock code",
+    "points": 10
+  },
+  {
+    "question_text": "What is the term for a security measure that requires a user to provide two different authentication factors to access a system or network?",
+    "options": [
+      {"key": "A", "text": "Single-factor authentication"},
+      {"key": "B", "text": "Multi-factor authentication"},
+      {"key": "C", "text": "Intrusion detection"},
+      {"key": "D", "text": "Access control list"}
+    ],
+    "correct_answer": "B",
+    "explanation": "Multi-factor authentication requires a user to provide two or more different authentication factors, such as a password and a fingerprint, to access a system or network",
+    "points": 10
+  }
+]

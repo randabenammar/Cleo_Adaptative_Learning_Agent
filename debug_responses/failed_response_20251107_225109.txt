@@ -1,0 +1,65 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 442)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary purpose of the MapReduce framework in big data processing?",
+    "options": [
+      {"key": "A", "text": "To store large amounts of data"},
+      {"key": "B", "text": "To process large data sets in parallel across a cluster of nodes"},
+      {"key": "C", "text": "To analyze data using machine learning algorithms"},
+      {"key": "D", "text": "To visualize data using graphs and charts"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The MapReduce framework is designed to process large data sets in parallel across a cluster of nodes, making it a key component of big data processing",
+    "points": 10
+  },
+  {
+    "question_text": "What is the role of the Mapper in the MapReduce process?",
+    "options": [
+      {"key": "A", "text": "To reduce the data to a smaller set of values"},
+      {"key": "B", "text": "To map input data to a set of key-value pairs"},
+      {"key": "C", "text": "To store the output of the Reducer"},
+      {"key": "D", "text": "To manage the cluster of nodes"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The Mapper takes input data, breaks it down, and maps it to a set of key-value pairs, which are then processed by the Reducer",
+    "points": 10
+  },
+  {
+    "question_text": "What is the output of the Map phase in the MapReduce process?",
+    "options": [
+      {"key": "A", "text": "A single, aggregated value"},
+      {"key": "B", "text": "A set of key-value pairs"},
+      {"key": "C", "text": "A sorted list of values"},
+      {"key": "D", "text": "A graph of the input data"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The Map phase produces a set of key-value pairs, which are then processed by the Reduce phase",
+    "points": 10
+  },
+  {
+    "question_text": "What is the purpose of the Shuffle phase in the MapReduce process?",
+    "options": [
+      {"key": "A", "text": "To sort the input data"},
+      {"key": "B", "text": "To aggregate the output of the Reducers"},
+      {"key": "C", "text": "To transfer data from the Mappers to the Reducers"},
+      {"key": "D", "text": "To manage the cluster of nodes"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The Shuffle phase transfers data from the Mappers to the Reducers, allowing the Reducers to process the output of the Mappers",
+    "points": 10
+  },
+  {
+    "question_text": "What is the role of the Reducer in the MapReduce process?",
+    "options": [
+      {"key": "A", "text": "To map input data to a set of key-value pairs"},
+      {"key": "B", "text": "To store the output of the Map phase"},
+      {"key": "C", "text": "To reduce the set of key-value pairs to a smaller set of values"},
+      {"key": "D", "text": "To manage the cluster of nodes"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The Reducer takes the output of the Mappers, reduces it to a smaller set of values, and produces the final output of the MapReduce process",
+    "points": 10
+  }
+]

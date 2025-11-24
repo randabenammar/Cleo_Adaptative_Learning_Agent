@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 331)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary advantage of using cloud computing?",
+    "options": [
+      {"key": "A", "text": "Increased hardware costs"},
+      {"key": "B", "text": "Scalability and flexibility"},
+      {"key": "C", "text": "Reduced data security"},
+      {"key": "D", "text": "Limited software choices"}
+    ],
+    "correct_answer": "B",
+    "explanation": "Cloud computing provides scalability and flexibility, allowing users to quickly scale up or down to meet changing business needs",
+    "points": 10
+  },
+  {
+    "question_text": "What is the term for the cloud computing model where resources are provided over the internet?",
+    "options": [
+      {"key": "A", "text": "Private cloud"},
+      {"key": "B", "text": "Hybrid cloud"},
+      {"key": "C", "text": "Public cloud"},
+      {"key": "D", "text": "Community cloud"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The public cloud model provides resources over the internet, making it accessible to anyone with an internet connection",
+    "points": 10
+  },
+  {
+    "question_text": "What is the purpose of cloud storage in cloud computing?",
+    "options": [
+      {"key": "A", "text": "To provide network connectivity"},
+      {"key": "B", "text": "To manage user accounts"},
+      {"key": "C", "text": "To store and manage data"},
+      {"key": "D", "text": "To provide security protocols"}
+    ],
+    "correct_answer": "C",
+    "explanation": "Cloud storage allows users to store and manage their data in a remote location, making it accessible from anywhere",
+    "points": 10
+  }
+]

@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 412)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary purpose of using a load balancer in a cloud architecture for big data processing?",
+    "options": [
+      {"key": "A", "text": "To increase storage capacity"},
+      {"key": "B", "text": "To distribute incoming traffic across multiple servers"},
+      {"key": "C", "text": "To improve data security"},
+      {"key": "D", "text": "To reduce network latency"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The primary purpose of a load balancer is to distribute incoming traffic across multiple servers to improve responsiveness, reliability, and scalability of applications",
+    "points": 10
+  },
+  {
+    "question_text": "What is the role of a cloud gateway in a big data cloud architecture?",
+    "options": [
+      {"key": "A", "text": "To manage data storage"},
+      {"key": "B", "text": "To provide network connectivity"},
+      {"key": "C", "text": "To act as an entry point for data ingestion"},
+      {"key": "D", "text": "To perform data processing tasks"}
+    ],
+    "correct_answer": "C",
+    "explanation": "A cloud gateway acts as an entry point for data ingestion, allowing data to be collected from various sources and transferred to the cloud for processing and storage",
+    "points": 10
+  },
+  {
+    "question_text": "What is the benefit of using a scalable storage solution in a big data cloud architecture?",
+    "options": [
+      {"key": "A", "text": "To reduce data processing time"},
+      {"key": "B", "text": "To improve data security"},
+      {"key": "C", "text": "To increase storage costs"},
+      {"key": "D", "text": "To handle increasing volumes of data"}
+    ],
+    "correct_answer": "D",
+    "explanation": "A scalable storage solution allows for the handling of increasing volumes of data, enabling big data applications to store and process large amounts of data efficiently",
+    "points": 10
+  }
+]

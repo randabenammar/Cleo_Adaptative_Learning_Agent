@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 379)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary purpose of normalization in database design?",
+    "options": [
+      {"key": "A", "text": "To improve data security"},
+      {"key": "B", "text": "To reduce data redundancy and improve data integrity"},
+      {"key": "C", "text": "To increase data storage capacity"},
+      {"key": "D", "text": "To simplify data retrieval"}
+    ],
+    "correct_answer": "B",
+    "explanation": "Normalization is the process of organizing data in a database to minimize data redundancy and dependency",
+    "points": 10
+  },
+  {
+    "question_text": "What is the function of an index in a database management system?",
+    "options": [
+      {"key": "A", "text": "To provide data encryption"},
+      {"key": "B", "text": "To improve data retrieval efficiency"},
+      {"key": "C", "text": "To manage user access control"},
+      {"key": "D", "text": "To perform data backups"}
+    ],
+    "correct_answer": "B",
+    "explanation": "An index in a database management system is used to speed up the retrieval of data by providing a quick way to locate specific data",
+    "points": 10
+  },
+  {
+    "question_text": "What is the term for a database that integrates data from multiple sources, providing a unified view of the data?",
+    "options": [
+      {"key": "A", "text": "Data warehouse"},
+      {"key": "B", "text": "Data mart"},
+      {"key": "C", "text": "Database management system"},
+      {"key": "D", "text": "Data lake"}
+    ],
+    "correct_answer": "A",
+    "explanation": "A data warehouse is a database that integrates data from multiple sources, providing a unified view of the data for reporting and analysis",
+    "points": 10
+  }
+]

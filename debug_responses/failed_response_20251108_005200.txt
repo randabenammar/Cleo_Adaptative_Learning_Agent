@@ -1,0 +1,65 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 417)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary purpose of the Map phase in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "To aggregate data from multiple sources"},
+      {"key": "B", "text": "To split and process large data sets into smaller chunks"},
+      {"key": "C", "text": "To store and manage large amounts of data"},
+      {"key": "D", "text": "To visualize data trends and patterns"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The Map phase is responsible for splitting and processing large data sets into smaller chunks, making it easier to analyze and process the data in parallel",
+    "points": 10
+  },
+  {
+    "question_text": "What is the role of the Reduce phase in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "To split data into smaller chunks for processing"},
+      {"key": "B", "text": "To aggregate and combine data from multiple sources"},
+      {"key": "C", "text": "To store and manage large amounts of data"},
+      {"key": "D", "text": "To visualize data trends and patterns"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The Reduce phase is responsible for aggregating and combining data from multiple sources, producing a single output",
+    "points": 10
+  },
+  {
+    "question_text": "What is the purpose of a Mapper in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "To execute the Reduce function on a set of key-value pairs"},
+      {"key": "B", "text": "To split data into smaller chunks and process them in parallel"},
+      {"key": "C", "text": "To store and manage large amounts of data"},
+      {"key": "D", "text": "To aggregate data from multiple sources"}
+    ],
+    "correct_answer": "B",
+    "explanation": "A Mapper is responsible for splitting data into smaller chunks and processing them in parallel, producing a set of key-value pairs as output",
+    "points": 10
+  },
+  {
+    "question_text": "What is the purpose of a Reducer in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "To split data into smaller chunks for processing"},
+      {"key": "B", "text": "To execute the Map function on a set of input data"},
+      {"key": "C", "text": "To aggregate and combine data from multiple sources"},
+      {"key": "D", "text": "To store and manage large amounts of data"}
+    ],
+    "correct_answer": "C",
+    "explanation": "A Reducer is responsible for aggregating and combining data from multiple sources, producing a single output",
+    "points": 10
+  },
+  {
+    "question_text": "What is the output of the Map phase in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "A single output file"},
+      {"key": "B", "text": "A set of key-value pairs"},
+      {"key": "C", "text": "A database query"},
+      {"key": "D", "text": "A data visualization"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The Map phase produces a set of key-value pairs as output, which are then fed into the Reduce phase for further processing",
+    "points": 10
+  }
+]

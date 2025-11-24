@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+sentence-transformers
+chromadb
+transformers
+torch
+sqlalchemy
+alembic
+pydantic
+python-multipart
+aiofiles
+streamlit
+psutil
+# Ajouter ces lignes aux dépendances existantes
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+pydantic_settings

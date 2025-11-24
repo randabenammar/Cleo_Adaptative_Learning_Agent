@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 383)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary purpose of using cloud computing in big data analytics?",
+    "options": [
+      {"key": "A", "text": "To reduce data security"},
+      {"key": "B", "text": "To increase scalability and flexibility"},
+      {"key": "C", "text": "To decrease data processing speed"},
+      {"key": "D", "text": "To minimize data storage capacity"}
+    ],
+    "correct_answer": "B",
+    "explanation": "Cloud computing allows for on-demand scalability and flexibility, making it an ideal solution for big data analytics",
+    "points": 10
+  },
+  {
+    "question_text": "What is the main advantage of using a cloud-based infrastructure for big data storage?",
+    "options": [
+      {"key": "A", "text": "Higher upfront costs"},
+      {"key": "B", "text": "Limited storage capacity"},
+      {"key": "C", "text": "Reduced data accessibility"},
+      {"key": "D", "text": "Lower operational costs and increased storage capacity"}
+    ],
+    "correct_answer": "D",
+    "explanation": "Cloud-based infrastructure provides lower operational costs and increased storage capacity, making it a cost-effective solution for big data storage",
+    "points": 10
+  },
+  {
+    "question_text": "What is the role of cloud computing in enabling real-time data processing in big data analytics?",
+    "options": [
+      {"key": "A", "text": "It slows down data processing"},
+      {"key": "B", "text": "It has no impact on data processing speed"},
+      {"key": "C", "text": "It enables batch processing only"},
+      {"key": "D", "text": "It enables fast and scalable data processing"}
+    ],
+    "correct_answer": "D",
+    "explanation": "Cloud computing enables fast and scalable data processing, making it possible to process large amounts of data in real-time",
+    "points": 10
+  }
+]

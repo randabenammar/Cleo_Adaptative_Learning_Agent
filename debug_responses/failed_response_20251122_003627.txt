@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 330)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the purpose of the print function in Python?",
+    "options": [
+      {"key": "A", "text": "To store data in a variable"},
+      {"key": "B", "text": "To output text or values to the screen"},
+      {"key": "C", "text": "To import modules"},
+      {"key": "D", "text": "To create a loop"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The print function is used to display output to the user, making B the correct answer",
+    "points": 10
+  },
+  {
+    "question_text": "What type of data does the input function return in Python?",
+    "options": [
+      {"key": "A", "text": "Integer"},
+      {"key": "B", "text": "Float"},
+      {"key": "C", "text": "String"},
+      {"key": "D", "text": "Boolean"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The input function returns user input as a string, regardless of the input type",
+    "points": 10
+  },
+  {
+    "question_text": "What is the result of the expression 5 + 3 in Python?",
+    "options": [
+      {"key": "A", "text": "6"},
+      {"key": "B", "text": "7"},
+      {"key": "C", "text": "8"},
+      {"key": "D", "text": "9"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The expression 5 + 3 equals 8, making C the correct answer",
+    "points": 10
+  }
+]

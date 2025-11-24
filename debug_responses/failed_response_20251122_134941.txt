@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 369)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is Big Data typically characterized by?",
+    "options": [
+      {"key": "A", "text": "Small amounts of structured data"},
+      {"key": "B", "text": "Large amounts of unstructured and semi-structured data"},
+      {"key": "C", "text": "Low velocity data processing"},
+      {"key": "D", "text": "Limited variety of data sources"}
+    ],
+    "correct_answer": "B",
+    "explanation": "Big Data is typically characterized by large amounts of unstructured and semi-structured data, which can come from various sources",
+    "points": 10
+  },
+  {
+    "question_text": "What does the term 'Variety' refer to in the context of Big Data?",
+    "options": [
+      {"key": "A", "text": "The speed at which data is generated"},
+      {"key": "B", "text": "The amount of data being generated"},
+      {"key": "C", "text": "The different types of data being generated"},
+      {"key": "D", "text": "The quality of the data being generated"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The term 'Variety' in Big Data refers to the different types of data being generated, including structured, semi-structured, and unstructured data",
+    "points": 10
+  },
+  {
+    "question_text": "What is one of the key challenges of working with Big Data?",
+    "options": [
+      {"key": "A", "text": "Storing small amounts of data"},
+      {"key": "B", "text": "Processing data in real-time"},
+      {"key": "C", "text": "Extracting insights from large, diverse data sets"},
+      {"key": "D", "text": "Maintaining data that is always structured"}
+    ],
+    "correct_answer": "C",
+    "explanation": "One of the key challenges of working with Big Data is extracting insights from large, diverse data sets, which can be complex and time-consuming",
+    "points": 10
+  }
+]

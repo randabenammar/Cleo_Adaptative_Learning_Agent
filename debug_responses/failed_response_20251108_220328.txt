@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 450)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary purpose of the Map phase in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "To combine the output from multiple reducers"},
+      {"key": "B", "text": "To transform and partition the input data into smaller chunks"},
+      {"key": "C", "text": "To sort and shuffle the output from the mappers"},
+      {"key": "D", "text": "To store the final output in a distributed file system"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The Map phase is responsible for transforming and partitioning the input data into smaller chunks, which are then processed by the Reduce phase",
+    "points": 10
+  },
+  {
+    "question_text": "What is the role of the Reduce phase in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "To split the input data into smaller chunks"},
+      {"key": "B", "text": "To combine the output from multiple mappers"},
+      {"key": "C", "text": "To transform and partition the input data"},
+      {"key": "D", "text": "To store the input data in a distributed file system"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The Reduce phase is responsible for combining the output from multiple mappers, aggregating the data and producing the final output",
+    "points": 10
+  },
+  {
+    "question_text": "What is the purpose of the shuffle phase in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "To transform and partition the input data"},
+      {"key": "B", "text": "To combine the output from multiple reducers"},
+      {"key": "C", "text": "To sort and transfer the output from the mappers to the reducers"},
+      {"key": "D", "text": "To store the final output in a distributed file system"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The shuffle phase is responsible for sorting and transferring the output from the mappers to the reducers, ensuring that the data is properly partitioned and sorted",
+    "points": 10
+  }
+]

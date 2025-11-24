@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 399)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary purpose of the Map phase in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "To combine the output from multiple mappers"},
+      {"key": "B", "text": "To transform input data into key-value pairs"},
+      {"key": "C", "text": "To sort the output from the reducer"},
+      {"key": "D", "text": "To store the output in a database"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The Map phase is responsible for taking input data, processing it, and producing key-value pairs as output, which are then used as input to the Reduce phase",
+    "points": 10
+  },
+  {
+    "question_text": "What is the role of the Reduce phase in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "To split the input data into smaller chunks"},
+      {"key": "B", "text": "To transform input data into key-value pairs"},
+      {"key": "C", "text": "To combine key-value pairs from the mapper and produce the final output"},
+      {"key": "D", "text": "To schedule the MapReduce job"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The Reduce phase takes the output from the Map phase, which is a set of key-value pairs, and combines them to produce the final output",
+    "points": 10
+  },
+  {
+    "question_text": "What is the purpose of a combiner in a MapReduce job?",
+    "options": [
+      {"key": "A", "text": "To increase the number of mappers in the job"},
+      {"key": "B", "text": "To reduce the amount of data sent to the reducer"},
+      {"key": "C", "text": "To sort the output from the mapper"},
+      {"key": "D", "text": "To schedule the MapReduce job"}
+    ],
+    "correct_answer": "B",
+    "explanation": "A combiner is an optional component in a MapReduce job that reduces the amount of data sent to the reducer by aggregating the output from the mapper",
+    "points": 10
+  }
+]

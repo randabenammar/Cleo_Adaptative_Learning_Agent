@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 396)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary characteristic of cloud computing that allows users to access and utilize computing resources over the internet?",
+    "options": [
+      {"key": "A", "text": "High-performance computing"},
+      {"key": "B", "text": "On-demand self-service"},
+      {"key": "C", "text": "High storage capacity"},
+      {"key": "D", "text": "Fast networking"}
+    ],
+    "correct_answer": "B",
+    "explanation": "On-demand self-service is a key characteristic of cloud computing, enabling users to provision and manage computing resources without requiring human intervention",
+    "points": 10
+  },
+  {
+    "question_text": "What type of cloud deployment model is owned and managed by a single organization, and is typically used for sensitive or proprietary data and applications?",
+    "options": [
+      {"key": "A", "text": "Public cloud"},
+      {"key": "B", "text": "Hybrid cloud"},
+      {"key": "C", "text": "Private cloud"},
+      {"key": "D", "text": "Community cloud"}
+    ],
+    "correct_answer": "C",
+    "explanation": "A private cloud is a type of cloud deployment model that is owned and managed by a single organization, providing a high level of control and security",
+    "points": 10
+  },
+  {
+    "question_text": "What is the term used to describe the ability of a cloud computing system to automatically add or remove computing resources as needed, in response to changes in workload or demand?",
+    "options": [
+      {"key": "A", "text": "Scalability"},
+      {"key": "B", "text": "Flexibility"},
+      {"key": "C", "text": "Elasticity"},
+      {"key": "D", "text": "Portability"}
+    ],
+    "correct_answer": "C",
+    "explanation": "Elasticity refers to the ability of a cloud computing system to automatically add or remove computing resources as needed, in response to changes in workload or demand",
+    "points": 10
+  }
+]

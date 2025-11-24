@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 366)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the primary goal of a firewall in a cybersecurity system?",
+    "options": [
+      {"key": "A", "text": "To encrypt data"},
+      {"key": "B", "text": "To control and manage incoming and outgoing network traffic"},
+      {"key": "C", "text": "To detect malware"},
+      {"key": "D", "text": "To conduct penetration testing"}
+    ],
+    "correct_answer": "B",
+    "explanation": "A firewall's primary goal is to control and manage incoming and outgoing network traffic, based on predetermined security rules",
+    "points": 10
+  },
+  {
+    "question_text": "What type of cyber attack involves tricking users into revealing sensitive information?",
+    "options": [
+      {"key": "A", "text": "Phishing and malware"},
+      {"key": "B", "text": "Denial of Service (DoS)"},
+      {"key": "C", "text": "Man-in-the-Middle (MitM)"},
+      {"key": "D", "text": "Phishing"}
+    ],
+    "correct_answer": "D",
+    "explanation": "Phishing is a type of cyber attack where attackers trick users into revealing sensitive information, such as passwords or credit card numbers",
+    "points": 10
+  },
+  {
+    "question_text": "What is the term for a cybersecurity measure that involves regularly updating software and systems to prevent exploitation of known vulnerabilities?",
+    "options": [
+      {"key": "A", "text": "Penetration testing"},
+      {"key": "B", "text": "Intrusion detection"},
+      {"key": "C", "text": "Patch management"},
+      {"key": "D", "text": "Vulnerability assessment"}
+    ],
+    "correct_answer": "C",
+    "explanation": "Patch management is the process of regularly updating software and systems to prevent exploitation of known vulnerabilities",
+    "points": 10
+  }
+]

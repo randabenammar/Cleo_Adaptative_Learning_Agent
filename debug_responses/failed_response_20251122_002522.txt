@@ -1,0 +1,41 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 9 column 6 (char 320)
+================================================================================
+RESPONSE:
+[
+  {
+    "question_text": "What is the purpose of the import statement in Python?",
+    "options": [
+      {"key": "A", "text": "To create a new variable"},
+      {"key": "B", "text": "To load a module or library"},
+      {"key": "C", "text": "To define a function"},
+      {"key": "D", "text": "To start a loop"}
+    ],
+    "correct_answer": "B",
+    "explanation": "The import statement is used to load a module or library in Python, allowing access to its functions and variables",
+    "points": 10
+  },
+  {
+    "question_text": "What is the data type of the variable in the expression x = 5?",
+    "options": [
+      {"key": "A", "text": "String"},
+      {"key": "B", "text": "Float"},
+      {"key": "C", "text": "Integer"},
+      {"key": "D", "text": "Boolean"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The variable x is assigned the integer value 5, making its data type an integer",
+    "points": 10
+  },
+  {
+    "question_text": "What is the function of the len() function in Python?",
+    "options": [
+      {"key": "A", "text": "To convert a string to an integer"},
+      {"key": "B", "text": "To calculate the sum of a list"},
+      {"key": "C", "text": "To return the length of a string or list"},
+      {"key": "D", "text": "To sort a list in ascending order"}
+    ],
+    "correct_answer": "C",
+    "explanation": "The len() function is used to return the number of items in a string, list, or other sequence",
+    "points": 10
+  }
+]

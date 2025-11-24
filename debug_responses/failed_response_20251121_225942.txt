@@ -1,0 +1,87 @@
+ERROR: JSON parse error: Expecting ',' delimiter: line 10 column 2 (char 271)
+================================================================================
+RESPONSE:
+[
+{
+"question_text": "Match Spark concepts with definitions:",
+"left_items": [
+{"id": "L1", "text": "RDD"},
+{"id": "L2", "text": "DataFrame"},
+{"id": "L3", "text": "Spark SQL"},
+{"id": "L4", "text": "Apache Spark"},
+{"id": "L5", "text": "Resilient Distributed Dataset"}
+],
+"right_items": [
+{"id": "R1", "text": "A library for working with structured and semi-structured data"},
+{"id": "R2", "text": "An open-source data processing engine"},
+{"id": "R3", "text": "A module for querying data using SQL"},
+{"id": "R4", "text": "A collection of data that can be split across multiple nodes"},
+{"id": "R5", "text": "A high-level library for efficiently processing structured data"}
+],
+"correct_matches": [
+{"left": "L1", "right": "R4"},
+{"left": "L2", "right": "R5"},
+{"left": "L3", "right": "R1"},
+{"left": "L4", "right": "R2"},
+{"left": "L5", "right": "R4"}
+],
+"points": 20
+},
+{
+"question_text": "Match Spark components with descriptions:",
+"left_items": [
+{"id": "L1", "text": "Driver"},
+{"id": "L2", "text": "Executor"},
+{"id": "L3", "text": "Cluster Manager"},
+{"id": "L4", "text": "Spark Core"},
+{"id": "L5", "text": "GraphX"}
+],
+"right_items": [
+{"id": "R1", "text": "A library for graph processing"},
+{"id": "R2", "text": "The process that runs on each worker node"},
+{"id": "R3", "text": "The component that manages the Spark cluster"},
+{"id": "R4", "text": "The central component that controls the Spark application"},
+{"id": "R5", "text": "The foundation of the Spark platform"}
+],
+"correct_matches": [
+{"left": "L1", "right": "R4"},
+{"left": "L2", "text": "Executor"},
+{"left": "L3", "right": "R3"},
+{"left": "L4", "right": "R5"},
+{"left": "L5", "right": "R1"}
+],
+"correct_matches": [
+{"left": "L1", "right": "R4"},
+{"left": "L2", "right": "R2"},
+{"left": "L3", "right": "R3"},
+{"left": "L4", "right": "R5"},
+{"left": "L5", "right": "R1"}
+],
+"points": 20
+},
+{
+"question_text": "Match Spark features with explanations:",
+"left_items": [
+{"id": "L1", "text": "In-Memory Computation"},
+{"id": "L2", "text": "Cache"},
+{"id": "L3", "text": "Broadcast Variables"},
+{"id": "L4", "text": "Accumulators"},
+{"id": "L5", "text": "Lazy Evaluation"}
+],
+"right_items": [
+{"id": "R1", "text": "Variables that are shared among all nodes"},
+{"id": "R2", "text": "A mechanism for storing frequently accessed data"},
+{"id": "R3", "text": "A feature that delays computation until necessary"},
+{"id": "R4", "text": "Variables that are used to aggregate values"},
+{"id": "R5", "text": "A feature that enables fast computation by storing data in memory"}
+],
+"correct_matches": [
+{"left": "L1", "right": "R5"},
+{"left": "L2", "right": "R2"},
+{"left": "L3", "right": "R1"},
+{"left": "L4", "right": "R4"},
+{"left": "L5", "right": "R3"}
+],
+"points": 20
+}
+]
